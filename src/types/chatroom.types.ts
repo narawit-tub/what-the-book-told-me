@@ -1,9 +1,9 @@
-type User = {
+export type User = {
   id: string
   name: string
 }
 
-type Message = {
+export type Message = {
   id: string
   sender: User
   text: string
